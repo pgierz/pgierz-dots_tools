@@ -10,6 +10,7 @@ setup(
     ],
     entry_points='''
         [console_scripts]
+        dots-tools=cli:main
         gpg-subkey-generator=gpg_subkey_generator:main
     ''',
     author='Paul Gierz',
